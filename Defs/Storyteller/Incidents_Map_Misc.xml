@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>LuciferiumRain</defName>
+    <label>luciferium rain</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_MakeGameCondition</workerClass>
+    <gameCondition>LuciferiumRain</gameCondition>
+    <letterLabel>Luciferium rain</letterLabel>
+    <letterDef>ThreatSmall</letterDef>
+    <baseChance>0.1</baseChance>
+    <earliestDay>90</earliestDay>
+    <minRefireDays>45</minRefireDays>
+    <minDifficulty>0</minDifficulty>
+    <durationDays>0.5~2.5</durationDays>
+    <tale>LuciferiumRain</tale>
+  </IncidentDef>
+  <TaleDef>
+    <defName>LuciferiumRain</defName>
+    <label>luciferium rain</label>
+    <taleClass>Tale_SinglePawn</taleClass>
+    <type>Volatile</type>
+    <baseInterest>50</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun-&gt;luciferium rain settling over [PAWN_nameDef]'s [Community]</li>
+        <li>tale_noun-&gt;the atmosphere near [PAWN_nameDef]'s [Community] becoming filled with nannites</li>
+        <li>image-&gt;an ominous sky, [circumstance_group]</li>
+        <li>image-&gt;the air becoming thick and [circumstance_group]</li>
+        <li>image-&gt;the ground glowing gently and [circumstance_group]</li>
+        <li>image-&gt;[Quantity_adjphrase] graves [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;with no life in sight</li>
+        <li>circumstance_phrase-&gt;covered by a faint sheen of luminous dust</li>
+        <li>circumstance_phrase-&gt;arranged in a pattern that suggests bones</li>
+        <li>circumstance_phrase-&gt;waiting for the luciferium rain to stop</li>
+        <li>desc_sentence-&gt;[PAWN_nameDef] lies on the ground, [PAWN_possessive] body twisted at an unusual angle.</li>
+        <li>desc_sentence-&gt;[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look.</li>
+        <li>desc_sentence-&gt;[PAWN_nameDef] looks on in shock.</li>
+        <li>desc_sentence-&gt;[PAWN_nameDef] rests quietly with a layer of sweat upon [PAWN_possessive] face.</li>
+        <li>desc_sentence-&gt;[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+</Defs>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LuciferiumRain.label>luciferium rain</LuciferiumRain.label>
+  <LuciferiumRain.rulePack.rulesStrings.0>tale_noun->luciferium rain settling over [PAWN_nameDef]'s [Community]</LuciferiumRain.rulePack.rulesStrings.0>
+  <LuciferiumRain.rulePack.rulesStrings.1>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming filled with nannites</LuciferiumRain.rulePack.rulesStrings.1>
+  <LuciferiumRain.rulePack.rulesStrings.2>image->an ominous sky, [circumstance_group]</LuciferiumRain.rulePack.rulesStrings.2>
+  <LuciferiumRain.rulePack.rulesStrings.3>image->the air becoming thick and [circumstance_group]</LuciferiumRain.rulePack.rulesStrings.3>
+  <LuciferiumRain.rulePack.rulesStrings.4>image->the ground glowing gently and [circumstance_group]</LuciferiumRain.rulePack.rulesStrings.4>
+  <LuciferiumRain.rulePack.rulesStrings.5>image->[Quantity_adjphrase] graves [circumstance_group]</LuciferiumRain.rulePack.rulesStrings.5>
+  <LuciferiumRain.rulePack.rulesStrings.6>circumstance_phrase->with no life in sight</LuciferiumRain.rulePack.rulesStrings.6>
+  <LuciferiumRain.rulePack.rulesStrings.7>circumstance_phrase->covered by a faint sheen of luminous dust</LuciferiumRain.rulePack.rulesStrings.7>
+  <LuciferiumRain.rulePack.rulesStrings.8>circumstance_phrase->arranged in a pattern that suggests bones</LuciferiumRain.rulePack.rulesStrings.8>
+  <LuciferiumRain.rulePack.rulesStrings.9>circumstance_phrase->waiting for the luciferium rain to stop</LuciferiumRain.rulePack.rulesStrings.9>
+  <LuciferiumRain.rulePack.rulesStrings.10>desc_sentence->[PAWN_nameDef] lies on the ground, [PAWN_possessive] body twisted at an unusual angle.</LuciferiumRain.rulePack.rulesStrings.10>
+  <LuciferiumRain.rulePack.rulesStrings.11>desc_sentence->[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look.</LuciferiumRain.rulePack.rulesStrings.11>
+  <LuciferiumRain.rulePack.rulesStrings.12>desc_sentence->[PAWN_nameDef] looks on in shock.</LuciferiumRain.rulePack.rulesStrings.12>
+  <LuciferiumRain.rulePack.rulesStrings.13>desc_sentence->[PAWN_nameDef] rests quietly with a layer of sweat upon [PAWN_possessive] face.</LuciferiumRain.rulePack.rulesStrings.13>
+  <LuciferiumRain.rulePack.rulesStrings.14>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</LuciferiumRain.rulePack.rulesStrings.14>
+
+
+</LanguageData>

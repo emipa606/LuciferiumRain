@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>LuciferiumBuildup</defName>
+    <label>luciferium buildup</label>
+    <description>luciferium buildup</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.7, 0.7)</defaultLabelColor>
+    <lethalSeverity>1</lethalSeverity>
+    <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <taleOnVisible>LuciferiumRevealed</taleOnVisible>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.08</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>initial</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <label>luciferium high</label>
+        <minSeverity>0.1</minSeverity>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>LuciferiumHigh</hediff>
+            <mtbDays>0.1</mtbDays>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <label>luciferium addiction</label>
+        <minSeverity>0.5</minSeverity>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>LuciferiumAddiction</hediff>
+            <mtbDays>0.1</mtbDays>
+          </li>
+        </hediffGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <TaleDef>
+    <defName>LuciferiumRevealed</defName>
+    <label>luciferium revealed</label>
+    <taleClass>Tale_SinglePawnAndDef</taleClass>
+    <defSymbol>ILLNESS</defSymbol>
+    <type>Volatile</type>
+    <baseInterest>4</baseInterest>
+    <rulePack>
+      <rulesStrings>
+        <li>tale_noun-&gt;[PAWN_nameDef]'s body becoming ifected with nanites</li>
+        <li>tale_noun-&gt;[PAWN_nameDef] being poisoned by luciferium</li>
+        <li>image-&gt;[PAWN_nameFull] staggering through a field [circumstance_group]</li>
+        <li>image-&gt;[PAWN_nameFull] lying on the ground [circumstance_group]</li>
+        <li>image-&gt;[PAWN_nameFull] lying in bed [circumstance_group]</li>
+        <li>image-&gt;[PAWN_nameFull] crouching next to a fire [circumstance_group]</li>
+        <li>image-&gt;[PAWN_nameFull] trying to light a fire [circumstance_group]</li>
+        <li>image-&gt;[PAWN_nameFull] mindlessly removing [PAWN_possessive] clothes [circumstance_group]</li>
+        <li>circumstance_phrase-&gt;and sweating uncontrollably</li>
+        <li>circumstance_phrase-&gt;and shivering uncontrollably</li>
+        <li>circumstance_phrase-&gt;while both sweating and shivering</li>
+        <li>circumstance_phrase-&gt;with cracked dry lips</li>
+        <li>circumstance_phrase-&gt;while vomiting</li>
+        <li>circumstance_phrase-&gt;with a visible rash</li>
+        <li>desc_sentence-&gt;[PAWN_nameDef]'s clothes are falling apart.</li>
+        <li>desc_sentence-&gt;The sky is a murky [Color].</li>
+        <li>desc_sentence-&gt;[Quantity_adjphrase] twisted [Color] [TerrainFeature]s surround the scene.</li>
+        <li>desc_sentence-&gt;The scene takes place inside a twisted [TreeType] forest.</li>
+      </rulesStrings>
+    </rulePack>
+  </TaleDef>
+</Defs>

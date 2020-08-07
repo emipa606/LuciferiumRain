@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StatDef>
+    <defName>LuciSensitivity</defName>
+    <label>luciferium sensitivity</label>
+    <description>Multiplier on the potency of the nannites on this character.</description>
+    <category>BasicsPawn</category>
+    <defaultBaseValue>1.0</defaultBaseValue>
+    <hideAtValue>1.0</hideAtValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <displayPriorityInCategory>75</displayPriorityInCategory>
+  </StatDef>
+</Defs>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LuciferiumBuildup.label>luciferium buildup</LuciferiumBuildup.label>
+  <LuciferiumBuildup.description>luciferium buildup</LuciferiumBuildup.description>
+  <LuciferiumBuildup.stages.0.label>initial</LuciferiumBuildup.stages.0.label>
+  <LuciferiumBuildup.stages.1.label>luciferium high</LuciferiumBuildup.stages.1.label>
+  <LuciferiumBuildup.stages.2.label>luciferium addiction</LuciferiumBuildup.stages.2.label>
+
+
+</LanguageData>

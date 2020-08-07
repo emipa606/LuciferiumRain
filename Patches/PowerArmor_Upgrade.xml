@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_PowerArmor" or defName="Apparel_ArmorRecon"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <LuciSensitivity>-1.25</LuciSensitivity>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_PowerArmorHelmet" or defName="Apparel_ArmorHelmetRecon"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <LuciSensitivity>-1.20</LuciSensitivity>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+</Patch>
