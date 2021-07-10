@@ -1,25 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LuciferiumRevealed.label>luciferium revealed</LuciferiumRevealed.label>
-  <LuciferiumRevealed.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]'s body becoming ifected with nanites</LuciferiumRevealed.rulePack.rulesStrings.0>
-  <LuciferiumRevealed.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef] being poisoned by luciferium</LuciferiumRevealed.rulePack.rulesStrings.1>
-  <LuciferiumRevealed.rulePack.rulesStrings.2>image->[PAWN_nameFull] staggering through a field [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.2>
-  <LuciferiumRevealed.rulePack.rulesStrings.3>image->[PAWN_nameFull] lying on the ground [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.3>
-  <LuciferiumRevealed.rulePack.rulesStrings.4>image->[PAWN_nameFull] lying in bed [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.4>
-  <LuciferiumRevealed.rulePack.rulesStrings.5>image->[PAWN_nameFull] crouching next to a fire [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.5>
-  <LuciferiumRevealed.rulePack.rulesStrings.6>image->[PAWN_nameFull] trying to light a fire [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.6>
-  <LuciferiumRevealed.rulePack.rulesStrings.7>image->[PAWN_nameFull] mindlessly removing [PAWN_possessive] clothes [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.7>
-  <LuciferiumRevealed.rulePack.rulesStrings.8>circumstance_phrase->and sweating uncontrollably</LuciferiumRevealed.rulePack.rulesStrings.8>
-  <LuciferiumRevealed.rulePack.rulesStrings.9>circumstance_phrase->and shivering uncontrollably</LuciferiumRevealed.rulePack.rulesStrings.9>
-  <LuciferiumRevealed.rulePack.rulesStrings.10>circumstance_phrase->while both sweating and shivering</LuciferiumRevealed.rulePack.rulesStrings.10>
-  <LuciferiumRevealed.rulePack.rulesStrings.11>circumstance_phrase->with cracked dry lips</LuciferiumRevealed.rulePack.rulesStrings.11>
-  <LuciferiumRevealed.rulePack.rulesStrings.12>circumstance_phrase->while vomiting</LuciferiumRevealed.rulePack.rulesStrings.12>
-  <LuciferiumRevealed.rulePack.rulesStrings.13>circumstance_phrase->with a visible rash</LuciferiumRevealed.rulePack.rulesStrings.13>
-  <LuciferiumRevealed.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef]'s clothes are falling apart.</LuciferiumRevealed.rulePack.rulesStrings.14>
-  <LuciferiumRevealed.rulePack.rulesStrings.15>desc_sentence->The sky is a murky [Color].</LuciferiumRevealed.rulePack.rulesStrings.15>
-  <LuciferiumRevealed.rulePack.rulesStrings.16>desc_sentence->[Quantity_adjphrase] twisted [Color] [TerrainFeature]s surround the scene.</LuciferiumRevealed.rulePack.rulesStrings.16>
-  <LuciferiumRevealed.rulePack.rulesStrings.17>desc_sentence->The scene takes place inside a twisted [TreeType] forest.</LuciferiumRevealed.rulePack.rulesStrings.17>
-
-
+  <LuciferiumRevealed.rulePack.rulesStrings.0>tale_noun-&gt;[PAWN_nameDef]'s body becoming ifected with nanites</LuciferiumRevealed.rulePack.rulesStrings.0>
+  <LuciferiumRevealed.rulePack.rulesStrings.1>tale_noun-&gt;[PAWN_nameDef] being poisoned by luciferium</LuciferiumRevealed.rulePack.rulesStrings.1>
+  <LuciferiumRevealed.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull] staggering through a field [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.2>
+  <LuciferiumRevealed.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull] lying on the ground [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.3>
+  <LuciferiumRevealed.rulePack.rulesStrings.4>image-&gt;[PAWN_nameFull] lying in bed [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.4>
+  <LuciferiumRevealed.rulePack.rulesStrings.5>image-&gt;[PAWN_nameFull] crouching next to a fire [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.5>
+  <LuciferiumRevealed.rulePack.rulesStrings.6>image-&gt;[PAWN_nameFull] trying to light a fire [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.6>
+  <LuciferiumRevealed.rulePack.rulesStrings.7>image-&gt;[PAWN_nameFull] mindlessly removing [PAWN_possessive] clothes [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.7>
+  <LuciferiumRevealed.rulePack.rulesStrings.8>circumstance_phrase-&gt;and sweating uncontrollably</LuciferiumRevealed.rulePack.rulesStrings.8>
+  <LuciferiumRevealed.rulePack.rulesStrings.9>circumstance_phrase-&gt;and shivering uncontrollably</LuciferiumRevealed.rulePack.rulesStrings.9>
+  <LuciferiumRevealed.rulePack.rulesStrings.10>circumstance_phrase-&gt;while both sweating and shivering</LuciferiumRevealed.rulePack.rulesStrings.10>
+  <LuciferiumRevealed.rulePack.rulesStrings.11>circumstance_phrase-&gt;with cracked dry lips</LuciferiumRevealed.rulePack.rulesStrings.11>
+  <LuciferiumRevealed.rulePack.rulesStrings.12>circumstance_phrase-&gt;while vomiting</LuciferiumRevealed.rulePack.rulesStrings.12>
+  <LuciferiumRevealed.rulePack.rulesStrings.13>circumstance_phrase-&gt;with a visible rash</LuciferiumRevealed.rulePack.rulesStrings.13>
+  <LuciferiumRevealed.rulePack.rulesStrings.14>desc_sentence-&gt;[PAWN_nameDef]'s clothes are falling apart.</LuciferiumRevealed.rulePack.rulesStrings.14>
+  <LuciferiumRevealed.rulePack.rulesStrings.15>desc_sentence-&gt;The sky is a murky [Color].</LuciferiumRevealed.rulePack.rulesStrings.15>
+  <LuciferiumRevealed.rulePack.rulesStrings.16>desc_sentence-&gt;[Quantity_adjphrase] twisted [Color] [TerrainFeature]s surround the scene.</LuciferiumRevealed.rulePack.rulesStrings.16>
+  <LuciferiumRevealed.rulePack.rulesStrings.17>desc_sentence-&gt;The scene takes place inside a twisted [TreeType] forest.</LuciferiumRevealed.rulePack.rulesStrings.17>
 </LanguageData>

@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LuciSensitivity.label>luciferium sensitivity</LuciSensitivity.label>
   <LuciSensitivity.description>Multiplier on the potency of the nannites on this character.</LuciSensitivity.description>
-
-
 </LanguageData>

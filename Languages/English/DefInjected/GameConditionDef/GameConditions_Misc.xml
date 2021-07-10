@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LuciferiumRain.label>luciferium rain</LuciferiumRain.label>
   <LuciferiumRain.description>Small droplets of water-mixed glitterworld nannites from high above landscape are gradually falling down onto this entire region of the planet. Anyone not under a roof will be target hosts for the nannites.</LuciferiumRain.description>
   <LuciferiumRain.endMessage>Most of the nannites have fallen.</LuciferiumRain.endMessage>
   <LuciferiumRain.letterText>A ship transporting advanced glitterworld nannites was shot down by an unknown entity overhead, causing its cargo to fall to the planet.\n\nThe nannites will find and enter the body of person or creature not under a roof.\n\nIt will last for anywhere between a few hours to a couple days.</LuciferiumRain.letterText>
-
-
 </LanguageData>
