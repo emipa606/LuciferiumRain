@@ -1,5 +1,8 @@
 # Changelog for LuciferiumRain
 
+1.0.2.0 - Fixed a faulty iterator, should no longer spawn issues when triggering rain
+
+
 1.0.1.0 - Mod updated for 1.3 and passed autotests
 
 
