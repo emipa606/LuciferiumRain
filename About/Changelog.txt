@@ -1,5 +1,8 @@
 # Changelog for LuciferiumRain
 
+1.4.2 - The toxic resistance calculations were inverted, should work better now
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

@@ -59,3 +59,4 @@ If you plan to use this mod in any other mod, just gimme a shoutout in your cred
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2190383816]Last updated 2023-07-09

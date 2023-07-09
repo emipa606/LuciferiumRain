@@ -7,6 +7,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(1.0, 0.7, 0.7)</defaultLabelColor>
     <lethalSeverity>1</lethalSeverity>
+    <initialSeverity>0.05</initialSeverity>
     <makesSickThought>true</makesSickThought>
     <scenarioCanAdd>true</scenarioCanAdd>
     <taleOnVisible>LuciferiumRevealed</taleOnVisible>

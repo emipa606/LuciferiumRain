@@ -86,7 +86,15 @@ public class GameCondition_LuciferiumRain : GameCondition
         }
 
         var num = 0.028758334f;
-        num /= Mathf.Max(p.GetStatValue(StatDefOf.ToxicResistance), 0.001f);
+        if (ModLister.BiotechInstalled)
+        {
+            num *= 1 - p.GetStatValue(StatDefOf.ToxicEnvironmentResistance);
+        }
+        else
+        {
+            num *= 1 - p.GetStatValue(StatDefOf.ToxicResistance);
+        }
+
         if (num != 0f)
         {
             var num2 = Mathf.Lerp(0.85f, 1.15f, Rand.ValueSeeded(p.thingIDNumber ^ 74374237));

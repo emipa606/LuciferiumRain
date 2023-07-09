@@ -5,11 +5,9 @@ namespace LuciferiumRain;
 
 public class WeatherOutComeDoer_GiveHediff : WeatherOutcomeDoer
 {
-    private bool divideByBodySize;
+    public readonly float severity = -1f;
 
     public HediffDef hediffDef;
-
-    public float severity = -1f;
 
     public ChemicalDef toleranceChemical;
 
@@ -18,13 +16,11 @@ public class WeatherOutComeDoer_GiveHediff : WeatherOutcomeDoer
         var hediff = HediffMaker.MakeHediff(hediffDef, pawn);
         var num = severity > 0f ? severity : hediffDef.initialSeverity;
 
-        if (divideByBodySize)
-        {
-            num /= pawn.BodySize;
-        }
+        num /= pawn.BodySize;
 
-        AddictionUtility.ModifyChemicalEffectForToleranceAndBodySize(pawn, toleranceChemical, ref num);
+        AddictionUtility.ModifyChemicalEffectForToleranceAndBodySize_NewTemp(pawn, toleranceChemical, ref num, true);
         hediff.Severity = num;
+        Log.Message($"Setting severity to {num} for {pawn}");
         pawn.health.AddHediff(hediff);
     }
 }
