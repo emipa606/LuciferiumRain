@@ -18,7 +18,7 @@ public class WeatherOutComeDoer_GiveHediff : WeatherOutcomeDoer
 
         num /= pawn.BodySize;
 
-        AddictionUtility.ModifyChemicalEffectForToleranceAndBodySize_NewTemp(pawn, toleranceChemical, ref num, true);
+        AddictionUtility.ModifyChemicalEffectForToleranceAndBodySize(pawn, toleranceChemical, ref num, true);
         hediff.Severity = num;
         Log.Message($"Setting severity to {num} for {pawn}");
         pawn.health.AddHediff(hediff);

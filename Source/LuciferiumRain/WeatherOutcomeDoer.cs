@@ -5,7 +5,7 @@ namespace LuciferiumRain;
 
 public abstract class WeatherOutcomeDoer
 {
-    public float chance = 1f;
+    public readonly float chance = 1f;
 
     public bool doToGeneratedPawnIfAddicted;
 

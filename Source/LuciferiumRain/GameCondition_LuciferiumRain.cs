@@ -30,10 +30,7 @@ public class GameCondition_LuciferiumRain : GameCondition
         var toColor = colorInt.ToColor;
         var colorInt2 = new ColorInt(234, 10, 25);
         LuciferiumRainColors = new SkyColorSet(toColor, colorInt2.ToColor, new Color(0.6f, 0.8f, 0.5f), 0.85f);
-        overlays = new List<SkyOverlay>
-        {
-            new WeatherOverlay_LuciferiumRain()
-        };
+        overlays = [new WeatherOverlay_LuciferiumRain()];
     }
 
     public void GameCondition()
