@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: luciferium buildup -->
+  <LuciferiumBuildup.label>luciferium buildup</LuciferiumBuildup.label>
+  <!-- EN: luciferium buildup -->
+  <LuciferiumBuildup.description>luciferium buildup</LuciferiumBuildup.description>
+  <!-- EN: initial -->
+  <LuciferiumBuildup.stages.initial.label>initial</LuciferiumBuildup.stages.initial.label>
+  <!-- EN: luciferium high -->
+  <LuciferiumBuildup.stages.luciferium_high.label>luciferium high</LuciferiumBuildup.stages.luciferium_high.label>
+  <!-- EN: luciferium addiction -->
+  <LuciferiumBuildup.stages.luciferium_addiction.label>luciferium addiction</LuciferiumBuildup.stages.luciferium_addiction.label>
+</LanguageData>

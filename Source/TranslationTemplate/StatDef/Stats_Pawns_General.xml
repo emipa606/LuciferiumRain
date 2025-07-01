@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: luciferium sensitivity -->
+  <LuciSensitivity.label>luciferium sensitivity</LuciSensitivity.label>
+  <!-- EN: Multiplier on the potency of the nannites on this character. -->
+  <LuciSensitivity.description>Multiplier on the potency of the nannites on this character.</LuciSensitivity.description>
+</LanguageData>

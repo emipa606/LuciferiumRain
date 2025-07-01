@@ -29,7 +29,7 @@ public class GameCondition_LuciferiumRain : GameCondition
         var colorInt = new ColorInt(216, 25, 0);
         var toColor = colorInt.ToColor;
         var colorInt2 = new ColorInt(234, 10, 25);
-        LuciferiumRainColors = new SkyColorSet(toColor, colorInt2.ToColor, new Color(0.6f, 0.8f, 0.5f), 0.85f);
+        LuciferiumRainColors = new SkyColorSet(toColor, colorInt2.ToColor, new Color(0.6f, 0.8f, 0.5f), SkyGlow);
         overlays = [new WeatherOverlay_LuciferiumRain()];
     }
 
@@ -47,7 +47,7 @@ public class GameCondition_LuciferiumRain : GameCondition
     public override void GameConditionTick()
     {
         var affectedMaps = AffectedMaps;
-        if (Find.TickManager.TicksGame % 3451 == 0)
+        if (Find.TickManager.TicksGame % CheckInterval == 0)
         {
             foreach (var map in affectedMaps)
             {
@@ -56,7 +56,7 @@ public class GameCondition_LuciferiumRain : GameCondition
                 for (var index = 0; index < allPawnsSpawned.Count; index++)
                 {
                     var pawn = allPawnsSpawned[index];
-                    DoPawnNanites(pawn);
+                    doPawnNanites(pawn);
                 }
             }
         }
@@ -65,12 +65,12 @@ public class GameCondition_LuciferiumRain : GameCondition
         {
             foreach (var map in affectedMaps)
             {
-                skyOverlay.TickOverlay(map);
+                skyOverlay.TickOverlay(map, SkyTargetLerpFactor(map));
             }
         }
     }
 
-    public static void DoPawnNanites(Pawn p)
+    private static void doPawnNanites(Pawn p)
     {
         if (p.Spawned && p.Position.Roofed(p.Map))
         {
@@ -94,7 +94,7 @@ public class GameCondition_LuciferiumRain : GameCondition
 
         if (num != 0f)
         {
-            var num2 = Mathf.Lerp(0.85f, 1.15f, Rand.ValueSeeded(p.thingIDNumber ^ 74374237));
+            var num2 = Mathf.Lerp(SkyGlow, 1.15f, Rand.ValueSeeded(p.thingIDNumber ^ 74374237));
             num *= num2;
             HealthUtility.AdjustSeverity(p, HediffDefOf_LuciferiumHigh.LuciferiumBuildup, num);
         }
@@ -147,12 +147,12 @@ public class GameCondition_LuciferiumRain : GameCondition
 
     public override float SkyTargetLerpFactor(Map map)
     {
-        return GameConditionUtility.LerpInOutValue(TicksPassed, TicksLeft, 5000f, 0.5f);
+        return GameConditionUtility.LerpInOutValue(TicksPassed, TicksLeft, LerpTicks, MaxSkyLerpFactor);
     }
 
     public override SkyTarget? SkyTarget(Map map)
     {
-        return new SkyTarget(0.85f, LuciferiumRainColors, 1f, 1f);
+        return new SkyTarget(SkyGlow, LuciferiumRainColors, 1f, 1f);
     }
 
     public override bool AllowEnjoyableOutsideNow(Map map)

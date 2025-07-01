@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: luciferium revealed -->
+  <LuciferiumRevealed.label>luciferium revealed</LuciferiumRevealed.label>
+  <!-- EN: tale_noun->[PAWN_nameDef]'s body becoming ifected with nanites -->
+  <LuciferiumRevealed.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef]'s body becoming ifected with nanites</LuciferiumRevealed.rulePack.rulesStrings.0>
+  <!-- EN: tale_noun->[PAWN_nameDef] being poisoned by luciferium -->
+  <LuciferiumRevealed.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef] being poisoned by luciferium</LuciferiumRevealed.rulePack.rulesStrings.1>
+  <!-- EN: image->[PAWN_nameFull] staggering through a field [circumstance_group] -->
+  <LuciferiumRevealed.rulePack.rulesStrings.2>image->[PAWN_nameFull] staggering through a field [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.2>
+  <!-- EN: image->[PAWN_nameFull] lying on the ground [circumstance_group] -->
+  <LuciferiumRevealed.rulePack.rulesStrings.3>image->[PAWN_nameFull] lying on the ground [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.3>
+  <!-- EN: image->[PAWN_nameFull] lying in bed [circumstance_group] -->
+  <LuciferiumRevealed.rulePack.rulesStrings.4>image->[PAWN_nameFull] lying in bed [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.4>
+  <!-- EN: image->[PAWN_nameFull] crouching next to a fire [circumstance_group] -->
+  <LuciferiumRevealed.rulePack.rulesStrings.5>image->[PAWN_nameFull] crouching next to a fire [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.5>
+  <!-- EN: image->[PAWN_nameFull] trying to light a fire [circumstance_group] -->
+  <LuciferiumRevealed.rulePack.rulesStrings.6>image->[PAWN_nameFull] trying to light a fire [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.6>
+  <!-- EN: image->[PAWN_nameFull] mindlessly removing [PAWN_possessive] clothes [circumstance_group] -->
+  <LuciferiumRevealed.rulePack.rulesStrings.7>image->[PAWN_nameFull] mindlessly removing [PAWN_possessive] clothes [circumstance_group]</LuciferiumRevealed.rulePack.rulesStrings.7>
+  <!-- EN: circumstance_phrase->and sweating uncontrollably -->
+  <LuciferiumRevealed.rulePack.rulesStrings.8>circumstance_phrase->and sweating uncontrollably</LuciferiumRevealed.rulePack.rulesStrings.8>
+  <!-- EN: circumstance_phrase->and shivering uncontrollably -->
+  <LuciferiumRevealed.rulePack.rulesStrings.9>circumstance_phrase->and shivering uncontrollably</LuciferiumRevealed.rulePack.rulesStrings.9>
+  <!-- EN: circumstance_phrase->while both sweating and shivering -->
+  <LuciferiumRevealed.rulePack.rulesStrings.10>circumstance_phrase->while both sweating and shivering</LuciferiumRevealed.rulePack.rulesStrings.10>
+  <!-- EN: circumstance_phrase->with cracked dry lips -->
+  <LuciferiumRevealed.rulePack.rulesStrings.11>circumstance_phrase->with cracked dry lips</LuciferiumRevealed.rulePack.rulesStrings.11>
+  <!-- EN: circumstance_phrase->while vomiting -->
+  <LuciferiumRevealed.rulePack.rulesStrings.12>circumstance_phrase->while vomiting</LuciferiumRevealed.rulePack.rulesStrings.12>
+  <!-- EN: circumstance_phrase->with a visible rash -->
+  <LuciferiumRevealed.rulePack.rulesStrings.13>circumstance_phrase->with a visible rash</LuciferiumRevealed.rulePack.rulesStrings.13>
+  <!-- EN: desc_sentence->[PAWN_nameDef]'s clothes are falling apart. -->
+  <LuciferiumRevealed.rulePack.rulesStrings.14>desc_sentence->[PAWN_nameDef]'s clothes are falling apart.</LuciferiumRevealed.rulePack.rulesStrings.14>
+  <!-- EN: desc_sentence->The sky is a murky [Color]. -->
+  <LuciferiumRevealed.rulePack.rulesStrings.15>desc_sentence->The sky is a murky [Color].</LuciferiumRevealed.rulePack.rulesStrings.15>
+  <!-- EN: desc_sentence->[Quantity_adjphrase] twisted [Color] [TerrainFeature]s surround the scene. -->
+  <LuciferiumRevealed.rulePack.rulesStrings.16>desc_sentence->[Quantity_adjphrase] twisted [Color] [TerrainFeature]s surround the scene.</LuciferiumRevealed.rulePack.rulesStrings.16>
+  <!-- EN: desc_sentence->The scene takes place inside a twisted [TreeType] forest. -->
+  <LuciferiumRevealed.rulePack.rulesStrings.17>desc_sentence->The scene takes place inside a twisted [TreeType] forest.</LuciferiumRevealed.rulePack.rulesStrings.17>
+</LanguageData>

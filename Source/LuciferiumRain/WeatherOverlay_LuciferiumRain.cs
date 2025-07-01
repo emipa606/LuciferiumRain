@@ -4,7 +4,7 @@ using Verse;
 namespace LuciferiumRain;
 
 [StaticConstructorOnStartup]
-public class WeatherOverlay_LuciferiumRain : SkyOverlay
+public class WeatherOverlay_LuciferiumRain : WeatherOverlayDualPanner
 {
     private static readonly Material LuciferiumRainOverlayWorld = MatLoader.LoadMat("Weather/RainOverlayWorld");
 
