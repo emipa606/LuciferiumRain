@@ -4,7 +4,7 @@ using Verse;
 namespace LuciferiumRain;
 
 [DefOf]
-public class HediffDefOf_LuciferiumHigh
+public static class HediffDefOf_LuciferiumHigh
 {
     public static HediffDef LuciferiumHigh;
 

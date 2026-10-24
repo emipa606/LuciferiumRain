@@ -3,4 +3,25 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="LuciferiumRain/LuciferiumRain.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/Defs/HediffDefs/">
+    <File Path="../Defs/HediffDefs/Hediffs_Global_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Storyteller/">
+    <File Path="../Defs/Storyteller/Incidents_Map_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Stats/">
+    <File Path="../Defs/Stats/Stats_Pawns_General.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/">
+    <File Path="../Patches/PowerArmor_Upgrade.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/GameConditionDefs/">
+    <File Path="../Defs/GameConditionDefs/GameConditions_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>

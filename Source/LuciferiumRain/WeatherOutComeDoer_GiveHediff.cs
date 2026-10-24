@@ -5,7 +5,7 @@ namespace LuciferiumRain;
 
 public class WeatherOutComeDoer_GiveHediff : WeatherOutcomeDoer
 {
-    public readonly float severity = -1f;
+    private readonly float severity = -1f;
 
     public HediffDef hediffDef;
 
